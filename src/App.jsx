@@ -15,6 +15,8 @@ function App() {
     <h1 style={{margin:"15px 0px", textAlign:"center"}}>Assignment-2 Counter Application</h1>
     <CounterFun />
     <CounterClass />
+    <hr style={{margin:"30px 0px", textAlign:"center"}} />
+    <ToDoForm />
     </>
   )
 }

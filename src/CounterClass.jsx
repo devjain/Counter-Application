@@ -6,6 +6,7 @@ import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import Grid from "@mui/material/Grid";
 
+
 class CounterClass extends Component {
     constructor(){
         super()
@@ -51,5 +52,4 @@ class CounterClass extends Component {
         );
     }
 }
- 
 export default CounterClass;

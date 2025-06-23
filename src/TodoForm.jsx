@@ -51,10 +51,11 @@ function ToDoForm() {
     return (
         <>
          <Container maxWidth="sm">
-                <h1 style={{margin:"15px 0px 30px", textAlign:"center"}}>To-Do application </h1>
+                <h1 style={{textAlign:"center"}}>Assignment - 2</h1>
+                <p style={{margin:"15px 0px 30px", textAlign:"center"}}>To-Do application </p>
              <form onSubmit={handleSubmit} style={{marginBottom:30}}>
                 <ButtonGroup size="large" variant="contained" aria-label="Basic button group" fullWidth>
-                    <TextField label="Enter to do list" color="secondary" fullWidth  onChange={handleChange} value={value} />
+                    <TextField label="Enter to do list" color="secondary" fullWidth  onChange={handleChange} value={value} sx={{background:'#fff'}} />
                     <Button style={{width:'100px'}} onClick={handleSubmit} color="secondary">add</Button>
                 </ButtonGroup>
              </form>

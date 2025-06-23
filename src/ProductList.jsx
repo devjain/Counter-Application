@@ -59,7 +59,7 @@ function ProductList() {
   };
 
   return (
-    <div style={{ background: "#e3e2e2", padding: "50px" }}>
+    <div style={{  padding: "50px" }}>
       <h1 style={{ paddingBottom: "30px", textAlign: "center" }}>
         Assignment-3 : Creating a React application for an online shoe store
       </h1>

@@ -1,20 +1,26 @@
-import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import ProductList from './ProductList'
-// import CounterFun from './CounterFun'
-// import CounterClass from './CounterClass'
-// import ToDoForm from './TodoForm'
-
+import ToDoForm from './TodoForm'
+import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom'
+import Layout from './Layout'
+import Counter from './Counter'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     
-    <ProductList />
+     <BrowserRouter>
+      <Routes>
+        {/* Main layout wrapper */}
+        <Route path="/" element={<Layout />}>
+          <Route path="assignment3" element={<ProductList />} />
+          <Route index element={<Counter />} />
+          <Route path="assignment2" element={<ToDoForm />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+   
     </>
   )
 }

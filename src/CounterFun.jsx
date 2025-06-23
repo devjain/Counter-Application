@@ -11,7 +11,7 @@ const CounterFun = () => {
     return (
         <>
          <Container maxWidth="sm">
-            
+            <h1 style={{textAlign:"center"}}>Assignment - 1</h1>
             <p  style={{margin:"15px 0px 30px", textAlign:"center"}}>Counter Application uisng function component</p>
 
                 <Grid

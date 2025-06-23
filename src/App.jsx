@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
-import CounterFun from './CounterFun'
-import CounterClass from './CounterClass'
-import ToDoForm from './TodoForm'
+import ProductList from './ProductList'
+// import CounterFun from './CounterFun'
+// import CounterClass from './CounterClass'
+// import ToDoForm from './TodoForm'
 
 
 function App() {
@@ -12,11 +13,8 @@ function App() {
 
   return (
     <>
-    <h1 style={{margin:"15px 0px", textAlign:"center"}}>Assignment-2 Counter Application</h1>
-    <CounterFun />
-    <CounterClass />
-    <hr style={{margin:"30px 0px", textAlign:"center"}} />
-    <ToDoForm />
+    
+    <ProductList />
     </>
   )
 }
